@@ -1,0 +1,56 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: headings.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Heading Styles
+-----------------------------------------------------------------*/
+
+
+/* Heading Block - with Subtitle
+-----------------------------------------------------------------*/
+
+.heading-block { 
+	margin-bottom: 2rem; 
+	text-align: center;
+
+	@media (min-width: 992px){
+		text-align: left;
+	}
+
+	.title {		
+		display: block;
+		font-family: $body-font;
+		font-size: $h2-font-size;
+		font-weight: 800;
+		line-height: 1;
+		margin-bottom: 0;
+	}
+}
+
+#heading-btn {
+	font-size: 0.8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: unset;
+}
+
+#heading-btn-outline {
+	font-size: 0.8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: unset;
+}
+
+#heading-btn-light {
+	font-size: 0.9rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: unset;
+	padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+	margin-left: 0.5rem;
+}

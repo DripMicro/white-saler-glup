@@ -1,0 +1,93 @@
+
+/* ----------------------------------------------------------------
+
+	footer.scss
+
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Footer
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+	Add here styles for footer. Thanks!
+-----------------------------------------------------------------*/
+
+#footer {
+	background-color: $dark;
+
+	hr {
+		background-color: #5c5b59;
+		margin: 2.5rem 0;
+	}
+}
+
+#footer-top {
+	padding-top: 1.35rem;
+	font-size: 0.685rem;
+	padding-bottom: 1.35rem;
+
+	.signup {
+		text-align: center;
+
+		@media (min-width: 992px){
+			text-align: right;
+		}
+	}
+}
+
+#footer-main {
+	background-color: $dark;
+	padding-top: 2rem;
+	font-size: 0.685rem;
+	padding-bottom: 1rem;
+
+	#footer-body{
+		padding-top: 3rem;
+
+		h3 {
+			margin-bottom: 1rem;
+			padding-top: .5rem;
+			font-weight: 500;
+		}
+
+		#logo {
+			text-align: center;
+		}
+
+		li {
+			a {
+				color: #999;
+			}
+		}
+
+		#social {
+			img {
+				padding-right: 2rem;
+			}
+			i {
+				font-size: 1.5rem;
+				color: #aaa;
+				padding-right: 1rem;
+			}
+		}
+
+	}
+}
+
+#footer-bottom {
+	padding-top: 1.375rem;
+	padding-bottom: 1.375rem;
+
+	#footer-footer{
+		padding-left: 5%;
+		padding-right: 5%;
+		
+		#line{
+			border-top: 1px solid #555;
+			padding-bottom: 3%;
+		}
+		
+	}
+}

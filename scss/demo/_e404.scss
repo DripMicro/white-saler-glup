@@ -1,0 +1,47 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Form: form.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Form Styles
+-----------------------------------------------------------------*/
+
+#banner404 {
+	background-repeat: no-repeat;
+    background-position: calc(100% - 6.25rem) center;
+    background-size: contain;
+    position: relative;
+	margin-top: 0;
+	img {
+        width: 100%;
+    }
+
+	#banner-title{
+        position: absolute;
+		right: 0;
+        #banner-text{
+            margin-top: 5rem;
+            margin-right: 20%;
+            h1 {
+                line-height: .6;
+                font-size: 4rem;
+				color: #fff;
+            }
+
+			#heading-btn-light{
+				font-size: 1rem;
+				padding-left: 3rem;
+				padding-right: 3rem;
+				border-radius: unset;
+				padding-top: 1rem;
+				padding-bottom: 1rem;
+				margin-left: .5rem;
+				font-weight: bold;
+				color: #222;
+			}
+        }
+    }
+}

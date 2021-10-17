@@ -1,0 +1,66 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Form: form.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Form Styles
+-----------------------------------------------------------------*/
+
+#arrival1{
+
+    background-color: #fafafa;
+    line-height: 1.3;
+    h3 {
+        padding-top: 2rem;
+    }
+
+    #arrival2{
+        
+        #ar-header {
+            margin-bottom: 0.2rem;
+            font-size: 1.3rem;
+            color: #000;
+        }
+        
+        #pe-explain {
+            line-height:1.1rem;
+        }
+    }
+
+}
+
+#arrival3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    line-height: 1.3;
+
+    h3{
+        margin-bottom: 0rem;
+    }
+
+    a {
+        color: red;
+        font-size: 1rem;
+
+        #readmore {
+            text-decoration: underline;
+        }
+    }
+}
+
+#arrival4 {
+    position: absolute;
+    bottom: 0;
+}
+
+#arrival5 {
+    height: 33rem;
+}
+
+#arrival6 {
+    height: 17rem;
+}
